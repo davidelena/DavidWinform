@@ -16,7 +16,8 @@ namespace DavidWinform
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new ThreadForm());
-            Application.Run(new AccountBalanceForm());
+            //Application.Run(new AccountBalanceForm());
+            Application.Run(new BackgroundWorker());
         }
     }
 }

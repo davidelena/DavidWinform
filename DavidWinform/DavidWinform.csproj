@@ -53,6 +53,12 @@
     <Compile Include="AccountBalanceForm.Designer.cs">
       <DependentUpon>AccountBalanceForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="BackgroundWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackgroundWorker.Designer.cs">
+      <DependentUpon>BackgroundWorker.cs</DependentUpon>
+    </Compile>
     <Compile Include="ThreadForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AccountBalanceForm.resx">
       <DependentUpon>AccountBalanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BackgroundWorker.resx">
+      <DependentUpon>BackgroundWorker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThreadForm.resx">
       <DependentUpon>ThreadForm.cs</DependentUpon>
